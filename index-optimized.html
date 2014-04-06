@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml; charset=utf-8"/>
+    <script>
+      require = {
+          bundles: {
+             "secondary": ["views/foo", "views/bar"]
+          }
+      };
+    </script>
+    <script type="text/javascript" data-main="build/main.js" src="bower_components/requirejs/require.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="foo"></div>
+    <div id="bar"></div>
+  </body>
+</html>
